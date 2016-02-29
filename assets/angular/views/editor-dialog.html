@@ -1,0 +1,19 @@
+<div class="modal-header">
+    <h4>Izmeni artikal</h4>
+</div>
+
+<div class="modal-body">
+    <div class="form-group">
+        <label for="itemClasses">Classes:</label>
+        <input type="text" class="form-control" ng-model="item.item_class" id="itemClasses">
+    </div>
+    <div class="form-group">
+        <label for="item-structure">Structure:</label>
+        <div text-angular ng-model="item.item_structure" id="item-structure"></div>
+    </div>
+</div>
+
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" ng-click="cancel()">Otkaži</button>
+    <button type="button" class="btn btn-primary" ng-click="save(item)">Sačuvaj</button>
+</div>

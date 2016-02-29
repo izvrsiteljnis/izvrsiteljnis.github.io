@@ -1,0 +1,10 @@
+<div class="np-editor">
+    <span ng-transclude></span>
+    <ul class="floating-panel" ng-controller="npEditorCtrl as editor">
+        <li ng-click="editor.add()"><i class="glyphicon glyphicon-plus"></i></li>
+        <li ng-click="editor.edit(item)"><i class="glyphicon glyphicon-pencil"></i></li>
+        <li ng-click="editor.delete(item)"><i class="glyphicon glyphicon-trash"></i></li>
+        <li><i class="glyphicon glyphicon-eye-close"></i></li>
+        <li><i class="glyphicon glyphicon-eye-open" style="display: none;"></i></li>
+    </ul>
+</div>
